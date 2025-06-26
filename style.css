@@ -7,7 +7,6 @@ nav {
   top: 0;
   padding: 1rem;
   background-color: white;
-
 }
 nav a {
   margin: 0 1rem;
@@ -30,13 +29,26 @@ nav a:active {
   min-height: 100vh;
   padding: 4rem 2rem;
   scroll-margin-top: 4.3rem;
+  margin-top: 100px;
+  font-family: Poppins;
+  font-size: 2em;
 }
 
 .highlight {
-    color: red;
+  color: red;
 }
 
-#home {
+.section p {
+  font-family: Roboto;
+}
+
+@media only screen and (max-width: 581px) {
+  .section {
+    font-size: 1.5em;
+  }
+}
+
+/* #home {
   margin-top: 100px;
   font-family: Poppins;
   font-size: 2em;
@@ -50,8 +62,4 @@ nav a:active {
   margin-top: 100px;
   font-family: Poppins;
   font-size: 2em;
-}
-
-#aboutme p {
-  font-family: Roboto;
-}
+} */
