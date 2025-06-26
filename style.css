@@ -1,0 +1,57 @@
+nav {
+  font-family: monospace;
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  background-color: white;
+
+}
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:active {
+  color: red;
+}
+
+@media only screen and (max-width: 581px) {
+  nav {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.section {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  scroll-margin-top: 4.3rem;
+}
+
+.highlight {
+    color: red;
+}
+
+#home {
+  margin-top: 100px;
+  font-family: Poppins;
+  font-size: 2em;
+}
+
+#home p {
+  font-family: Roboto;
+}
+
+#aboutme {
+  margin-top: 100px;
+  font-family: Poppins;
+  font-size: 2em;
+}
+
+#aboutme p {
+  font-family: Roboto;
+}
