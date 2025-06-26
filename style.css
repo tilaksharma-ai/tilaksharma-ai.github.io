@@ -48,18 +48,15 @@ nav a:active {
   }
 }
 
-/* #home {
-  margin-top: 100px;
-  font-family: Poppins;
-  font-size: 2em;
+
+.contact-links a {
+  margin: 5px;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
-#home p {
-  font-family: Roboto;
+.contact-links a:hover {
+  color: #eb0c4f;
 }
 
-#aboutme {
-  margin-top: 100px;
-  font-family: Poppins;
-  font-size: 2em;
-} */
