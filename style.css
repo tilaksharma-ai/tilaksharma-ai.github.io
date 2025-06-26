@@ -36,10 +36,6 @@ nav a:active {
   font-size: 2em;
 }
 
-.highlight {
-  color: red;
-}
-
 .section p {
   font-family: Roboto;
 }
@@ -49,6 +45,18 @@ nav a:active {
     font-size: 1.5em;
   }
 }
+
+/* Highlight Links */
+.highlight {
+  color: red;
+}
+
+
+/* About me */
+#aboutme p {
+  width: 60vi;
+}
+
 
 /* Contact Links */
 .contact-links a {
